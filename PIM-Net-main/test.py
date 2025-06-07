@@ -29,7 +29,7 @@ class AverageMeter(object):
         self.avg = self.sum / self.count
 
 if __name__=='__main__':
-    model_pth = "pths/polyp/28.pth"
+    model_pth = "pths/polyp/epoch_30.pth"
     test_paths = "/mnt/d/BaiduDownload/data/UltraEdit"
 
     cfg = Config(datapath=test_paths, snapshot=model_pth, mode='test')

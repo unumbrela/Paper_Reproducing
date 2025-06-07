@@ -43,3 +43,6 @@ output/
 *.onnx
 *.pb
 *.weights
+
+
+*.Identifier
