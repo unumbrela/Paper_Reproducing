@@ -25,7 +25,6 @@ logs/
 *.log
 
 # 数据集
-data/
 datasets/
 *.zip
 *.tar.gz
@@ -46,3 +45,8 @@ output/
 
 
 *.Identifier
+
+
+dnd/
+sidd/
+synthesized_data/
